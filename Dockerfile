@@ -8,5 +8,5 @@ WORKDIR /app/
 RUN pip3 install -U -r requirements.txt
 ENV PORT 8080
 EXPOSE 8080
-CMD ["bash start"]
+CMD bash start
 
